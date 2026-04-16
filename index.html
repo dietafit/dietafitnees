@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dieta Personalizada - Seu Caminho para a Forma Ideal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .pulse-slow {
+            animation: pulse 3s infinite;
+        }
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .fade-in-up {
+            animation: fadeInUp 0.8s ease-out forwards;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans">
+
+    <!-- Header -->
+    <header class="gradient-bg text-white shadow-2xl">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold">🍎 DietaFit</div>
+            <div class="hidden md:flex space-x-6">
+                <a href="#como-funciona" class="hover:text-yellow-300 transition">Como Funciona</a>
+                <a href="#beneficios" class="hover:text-yellow-300 transition">Benefícios</a>
+                <a href="#depoimentos" class="hover:text-yellow-300 transition">Depoimentos</a>
+                <a href="#comprar" class="bg-yellow-400 text-black px-6 py-2 rounded-full font-semibold hover:bg-yellow-300 transition">
+                    Comprar Agora
+                </a>
+            </div>
+            <button class="md:hidden">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="gradient-bg text-white py-24 relative overflow-hidden">
+        <div class="container mx-auto px-6 text-center">
+            <div class="max-w-4xl mx-auto">
+                <h1 class="text-5xl md:text-7xl font-bold mb-8 fade-in-up">
+                    Sua <span class="text-yellow-400">Dieta Personalizada</span><br>
+                    Feita Sob Medida
+                </h1>
+                <p class="text-xl md:text-2xl mb-12 opacity-90 fade-in-up" style="animation-delay: 0.2s">
+                    Receba em 24h seu plano alimentar exclusivo baseado no seu corpo, objetivos e rotina, com atendimeto online 24h !
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16 fade-in-up" style="animation-delay: 0.4s">
+                    <div class="bg-white/20 backdrop-blur-lg px-8 py-4 rounded-full text-lg font-semibold">
+                        <i class="fas fa-clock text-yellow-400 mr-2"></i>
+                        Entrega em 24h
+                    </div>
+                    <div class="bg-white/20 backdrop-blur-lg px-8 py-4 rounded-full text-lg font-semibold">
+                        <i class="fas fa-users text-yellow-400 mr-2"></i>
+                        +5.000 clientes satisfeitos
+                    </div>
+                </div>
+                <a href="#comprar" class="bg-yellow-400 text-black text-2xl px-12 py-6 rounded-full font-bold hover:bg-yellow-300 transform hover:scale-105 transition-all duration-300 shadow-2xl pulse-slow inline-block fade-in-up" style="animation-delay: 0.6s">
+                    <i class="fas fa-shopping-cart mr-3"></i>
+                    Comprar por R$49,90
+                
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Como Funciona -->
+    <section id="como-funciona" class="py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-20">
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mb-6">Como Funciona?</h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">Em 3 passos simples, você recebe sua dieta personalizada</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-12">
+                <div class="text-center group">
+                    <div class="w-24 h-24 bg-gradient-to-r from-blue-500 to-purple-600 rounded-3xl mx-auto mb-8 flex items-center justify-center text-2xl text-white shadow-2xl group-hover:scale-110 transition-transform">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">1. Preencha o Questionário</h3>
+                    <p class="text-gray-600">Responda 5 perguntas rápidas sobre seu corpo, objetivos e rotina</p>
+                </div>
+                
+                <div class="text-center group">
+                    <div class="w-24 h-24 bg-gradient-to-r from-green-500 to-blue-600 rounded-3xl mx-auto mb-8 flex items-center justify-center text-2xl text-white shadow-2xl group-hover:scale-110 transition-transform">
+                        <i class="fas fa-magic"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">2. Receba em 24h</h3>
+                    <p class="text-gray-600">Nossos nutricionistas criam seu plano 100% personalizado, via video chamada </p>
+                </div>
+                
+                <div class="text-center group">
+                    <div class="w-24 h-24 bg-gradient-to-r from-yellow-500 to-orange-500 rounded-3xl mx-auto mb-8 flex items-center justify-center text-2xl text-white shadow-2xl group-hover:scale-110 transition-transform">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">3. Alcance seus Objetivos</h3>
+                    <p class="text-gray-600">Siga o plano e veja resultados reais em semanas</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefícios -->
+    <section id="beneficios" class="py-24 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-20">
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mb-6">O que você recebe</h2>
+                <p class="text-xl text-gray-600">Tudo pensado para seu sucesso</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-3xl shadow-xl hover:shadow-2xl transition-all">
+                    <i class="fas fa-utensils text-4xl text-green-500 mb-4"></i>
+                    <h3 class="text-2xl font-bold mb-4">Plano de 30 Dias</h3>
+                    <p class="text-gray-600">Refeições detalhadas com quantidades exatas</p>
+                </div>
+                <div class="bg-white p-8 rounded-3xl shadow-xl hover:shadow-2xl transition-all">
+                    <i class="fas fa-dumbbell text-4xl text-blue-500 mb-4"></i>
+                    <h3 class="text-2xl font-bold mb-4">Lista de Compras</h3>
+                    <p class="text-gray-600">Organizada por supermercado com preços</p>
+                </div>
+                <div class="bg-white p-8 rounded-3xl shadow-xl hover:shadow-2xl transition-all">
+                    <i class="fas fa-mobile-alt text-4xl text-purple-500 mb-4"></i>
+                    <h3 class="text-2xl font-bold mb-4">App de Suporte</h3>
+                    <p class="text-gray-600">Acompanhamento diário dos seus resultados</p>
+                </div>
+                <div class="bg-white p-8 rounded-3xl shadow-xl hover:shadow-2xl transition-all">
+                    <i class="fas fa-headset text-4xl text-orange-500 mb-4"></i>
+                    <h3 class="text-2xl font-bold mb-4">Suporte VIP</h3>
+                    <p class="text-gray-600">WhatsApp com nutricionista 7 dias/semana</p>
+                </div>
+                <div class="bg-white p-8 rounded-3xl shadow-xl hover:shadow-2xl transition-all">
+                    <i class="fas fa-fire text-4xl text-red-500 mb-4"></i>
+                    <h3 class="text-2xl font-bold mb-4">Receitas Exclusivas</h3>
+                    <p class="text-gray-600">50+ receitas fáceis e deliciosas</p>
+                </div>
+                <div class="bg-white p-8 rounded-3xl shadow-xl hover:shadow-2xl transition-all">
+                    <i class="fas fa-infinity text-4xl text-indigo-500 mb-4"></i>
+                    <h3 class="text-2xl font-bold mb-4">Acesso Ilimitado</h3>
+                    <p class="text-gray-600">Atualizações grátis para sempre</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Preço -->
+    <section id="comprar" class="py-24 bg-gradient-to-br from-purple-600 via-blue-600 to-indigo-800 text-white">
+        <div class="container mx-auto px-6 text-center">
+            <div class="max-w-4xl mx-auto">
+                <div class="bg-white/10 backdrop-blur-xl rounded-3xl p-12 mb-12">
+                    <h2 class="text-5xl md:text-6xl font-bold mb-8">Tudo isso por apenas</h2>
+                    <div class="text-7xl md:text-8xl font-black mb-8">
+                        R$ <span class="text-yellow-400">97</span>
+                    </div>
+                    <p class="text-2xl opacity-90 mb-12">Valor único - Sem mensalidades</p>
+                    
+                    <div class="grid md:grid-cols-3 gap-6 mb-12">
+                        <div class="bg-white/20 p-6 rounded-2xl">
+                            <i class="fas fa-shield-alt text-2xl text-yellow-400 mb-2"></i>
+                            <div>Garantia de 7 dias</div>
+                        </div>
+                        <div class="bg-white/20 p-6 rounded-2xl">
+                            <i class="fas fa-lock text-2xl text-yellow-400 mb-2"></i>
+                            <div>Pagamento 100% seguro</div>
+                        </div>
+                        <div class="bg-white/20 p-6 rounded-2xl">
+                            <i class="fas fa-credit-card text-2xl text-yellow-400 mb-2"></i>
+                            <div>12x de R$9,24</div>
+                        </div>
+                    </div>
+
+                    <!-- Formulário de Compra com PagSeguro -->
+                    <div class="max-w-md mx-auto">
+                        <form target="pagseguro" action="https://pagseguro.uol.com.br/checkout/v2/payment.html?code=SEU_CODIGO_AQUI" method="post" id="form-pagseguro">
+                            <!-- Campos obrigatórios do PagSeguro -->
+                            <input type="hidden" name="receiverEmail" value="seuemail@vendedordieta.com">
+                            <input type="hidden" name="currency" value="BRL">
+                            <input type="hidden" name="reference" value="DietaPersonalizada">
+                            <input type="hidden" name="itemId1" value="1">
+                            <input type="hidden" name="itemDescription1" value="Curso Dieta Personalizada">
+                            <input type="hidden" name="itemAmount1" value="97.00">
+                            <input type="hidden" name="itemQuantity1" value="1">
+                            
+                            <button type="submit" class="w-full bg-yellow-400 text-black text-2xl px-12 py-8 rounded-3xl font-bold hover:bg-yellow-300 transform hover:scale-105 transition-all duration-300 shadow-2xl mb-8">
+                                <i class="fas fa-credit-card mr-3"></i>
+                                Comprar com PagSeguro
+                            </button>
+                        </form>
+
+                        <!-- Botão Mercado Pago -->
+                        <div class="bg-white/20 p-4 rounded-2xl mb-8">
+                            <a href="https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=SEU_PREF_ID_AQUI" 
+                               class="w-full block bg-green-500 text-white text-xl px-8 py-6 rounded-2xl font-bold hover:bg-green-400 transition-all">
+                                <i class="fab fa-mercadopago mr-3"></i>
+                                Ou pague com Mercado Pago
+                            </a>
+                        </div>
+
+                        <p class="text-lg opacity-90">✅ Cartões, boleto e Pix</p>
+                    </div>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-8 text-left max-w-4xl mx-auto">
+                    <div>
+                        <h3 class="text-2xl font-bold mb-6">Por que escolher nossa dieta?</h3>
+                        <ul class="space-y-3 text-lg">
+                            <li><i class="fas fa-check-circle text-green-400 mr-3"></i>100% personalizada para VOCÊ</li>
+                            <li><i class="fas fa-check-circle text-green-400 mr-3"></i>Feita por nutricionistas reais</li>
+                            <li><i class="fas fa-check-circle text-green-400 mr-3"></i>Resultados comprovados</li>
+                            <li><i class="fas fa-check-circle text-green-400 mr-3"></i>Suporte completo incluso</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold mb-6">Garantia Total</h3>
+                        <p class="text-xl mb-6">Se em 7 dias você não gostar, devolvemos 100% do seu dinheiro. Sem perguntas.</p>
+                        <div class="bg-white/20 p-6 rounded-2xl">
+                            <i class="fas fa-handshake text-3xl text-yellow-400 mb-4"></i>
+                            <strong>Garantia Incondicional de Satisfação</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section id="depoimentos" class="py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-20">
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mb-6">Resultados Reais</h2>
+                <p class="text-xl text-gray-600">Milhares de pessoas já transformaram seus corpos</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-8 rounded-3xl text-center hover:shadow-2xl transition-all">
+                    <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&round=true" 
+                         class="w-24 h-24 mx-auto rounded-full mb-6 shadow-lg">
+                    <p class="text-gray-700 mb-6 italic">"'Perdi 8kg em 1 mês! Finalmente uma dieta que funciona pra mim"</p>
+                    <div class="font-bold text-2xl text-gray-800">Ana Silva</div>
+                    <div class="text-yellow-500 font-semibold">★ ★ ★ ★ ★</div>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-3xl text-center hover:shadow-2xl transition-all">
+                    <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&round=true" 
+                         class="w-24 h-24 mx-auto rounded-full mb-6 shadow-lg">
+                    <p class="text-gray-700 mb-6 italic">"Melhor investimento da minha vida. Ganhei músculos e energia!"</p>
+                    <div class="font-bold text-2xl text-gray-800">João Santos</div>
+                    <div class="text-yellow-500 font-semibold">★ ★ ★ ★ ★</div>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-3xl text-center hover:shadow-2xl transition-all">
+                    <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&round=true" 
+                         class="w-24 h-24 mx-auto rounded-full mb-6 shadow-lg">
+                    <p class="text-gray-700 mb-6 italic">"Emagreci 12kg sem passar fome. Recomendo demais!"</p>
+                    <div class="font-bold text-2xl text-gray-800">Maria Oliveira</div>
+                    <div class="text-yellow-500 font-semibold">★ ★ ★ ★ ★</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6 text-center">
+            <div class="text-3xl mb-8">🍎 DietaFit</div>
+            <p class="mb-8">Transforme seu corpo com ciência e personalização</p>
+            <div class="flex justify-center space-x-6 mb-8">
+                <a href="#" class="text-2xl hover:text-yellow-400 transition"><i class
